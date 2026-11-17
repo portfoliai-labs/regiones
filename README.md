@@ -16,7 +16,8 @@ and a building type, not an appraisal of any property.
 Served at `https://portfoliai-labs.github.io/regiones/v1/`:
 
 - `manifest.json`: the source, the licence, what was changed, each row's columns, the semesters
-  and years held, the building types' names, and every municipality's file with its SHA-256.
+  and years held, the building types' names, and every municipality's file with its SHA-256 and
+  the municipality's name, province and region as the OMI writes them (enough for a picker).
 - `municipalities/<code>.json`, by the municipality's codice catastale (Milan: `F205`): its
   OMI zones and their quotations (sale and rent, minimum and maximum, EUR per square metre of a
   gross `L` or net `N` surface) for every semester held, the perimeters of its latest semester,
